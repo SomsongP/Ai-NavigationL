@@ -31,8 +31,8 @@ public class AgentManager : MonoBehaviour
                 }
             }
         }
-        coroutine = RanWalk(20f);
-        StartCoroutine(coroutine);
+        //coroutine = RanWalk(20f);
+        //StartCoroutine(coroutine);
         
     }
     private IEnumerator RanWalk(float time)
